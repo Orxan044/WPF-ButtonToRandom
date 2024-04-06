@@ -1,0 +1,61 @@
+﻿<Window x:Class="WPF_ButtontoRandom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ButtontoRandom"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="350" Margin="0,0,0,0">
+
+    <Grid Height="200" Width="350">
+        <Button 
+            Background="#ff7f27" 
+            Content="1" FontSize="20"
+            Height="40" Width="80" 
+            Margin="17,21,253,139" 
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+        <Button  
+            Background="#FFFFAEC9"
+            Content="2" FontSize="20"
+            Height="40" Width="80"
+            Margin="113,21,157,139"  
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+        <Button  
+            Background="#00A2E8"
+            Content="3" FontSize="20"
+            Height="40" Width="80"
+            Margin="210,21,60,139"  
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+        <Button  
+            Background="#ED1C24"
+            Content="4" FontSize="20"
+            Height="40" Width="80"
+            Margin="17,68,253,92"  
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+        <Button  
+            Background="#A349A4"
+            Content="5" FontSize="20"
+            Height="40" Width="80"
+            Margin="113,68,157,92"  
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+        <Button  
+            Background="#C3C3C3"
+            Content="6" FontSize="20"
+            Height="40" Width="80"
+            Margin="211,68,59,92"  
+            MouseDown="Button_MouseDown"
+            Click="Button_Click"
+            />
+
+    </Grid>
+</Window>
